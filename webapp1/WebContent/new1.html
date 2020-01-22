@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+
+<center><p>Login form</p>
+<body bgcolor="F3E4A6">
+<form>
+<table>
+
+<tr><th>Enter Customer Name :</th><td> <input type="text" name="user"></td></tr>
+<tr><th>Enter Mobile Number :</th><td><input type="text" pattern="[789]{1}[0-9]{10}" required> </td></tr>
+
+<tr><td><b>Select Product Type :</td><td><select></b>
+<option>Select Product Type</option>
+<option>soaps</option>
+<option>Readymade clothes</option>
+<option>Packed food items</option>
+<option>Handbags</option>
+<option>Washing Machine</option>
+<select>
+</td></tr>
+<tr><th>GST%:</th><td> <input type="number" name="gst"></td></tr>
+<tr><th>Enter Product price :</th><td> <input type="number" name="price"></td></tr>
+
+<tr><td><input type="submit" value="calculate bill with GST"></td><td><input type="Reset" value="cancel"></tr></td>
+
+
+
+
+</table>
+</body>
+
+
+</form>
+</html>
